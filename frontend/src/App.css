@@ -1,0 +1,105 @@
+/* App Container */
+body {
+  background: linear-gradient(145deg, #f0f4ff, #ffffff);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 850px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #2c3e50;
+}
+
+h3, h4 {
+  font-size: 22px;
+  margin-top: 30px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* File Upload */
+input[type="file"] {
+  margin-top: 10px;
+}
+
+button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+/* Invoice Cards */
+.invoice-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.invoice-list li {
+  background-color: #fafafa;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Calendar Container */
+.react-calendar {
+  margin-top: 20px;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+/* Calendar Tile Styles */
+.react-calendar__tile {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.react-calendar__tile--active {
+  background: #3498db !important;
+  color: white !important;
+  border-radius: 10px;
+}
+
+.react-calendar__tile:enabled:hover {
+  background: #ecf0f1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.react-calendar__tile--now {
+  background: #ffeaa7 !important;
+  color: #2d3436 !important;
+  border-radius: 10px;
+}
+
