@@ -1,10 +1,10 @@
-> 📌 **Project Summary:** Upload invoices → extract amount, vendor, and due date using OCR + NLP → track them in calendar view and get email reminders.
+> 📌 **Project Summary:** Upload invoices → extract amount, vendor, and due dte using OCR + NLP → track them in calendar view and get email reminders.
 
 # 📄 Invoice Scanner + Payment Tracker
 
 A full-stack app that allows users to upload invoices (image or PDF), 
 extract key data (vendor, amount, due date) using OCR and NLP, track them 
-on a calendar, and get email reminders before due dates.
+on a calender, and get email reminders before due dates.
 
 ---
 
