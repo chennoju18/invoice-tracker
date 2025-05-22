@@ -20,6 +20,13 @@ on a calender, and get email reminders before due dates.
 
 ---
 
+## 🧪 Try It Yourself!
+
+- Enter your own email address and upload any invoice (image or PDF)
+- On the invoice's due date, you’ll receive a real reminder email
+
+---
+
 ## 🛠 Tech Stack
 
 | Layer      | Tech                    |
